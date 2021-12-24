@@ -60,12 +60,12 @@ export default function MenuPokedex() {
             />
           )}
           numColumns={2}
-          onEndReached={() => onScrollEnd()}
-          onEndReachedThreshold={1}
+          onEndReached={() => setLimitScroll(v => v + 20)}
+          onEndReachedThreshold={0.5}
         />
       </View>
 
-      <ButtonFloat />
+      <ButtonFloat pokemons={pokemons} />
     </View>
   );
 }

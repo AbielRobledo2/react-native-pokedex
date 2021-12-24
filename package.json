@@ -17,6 +17,7 @@
     "graphql": "^16.2.0",
     "react": "17.0.2",
     "react-native": "0.66.4",
+    "react-native-barcode-mask": "^1.2.4",
     "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera.git",
     "react-native-gesture-handler": "^2.1.0",
     "react-native-modal": "^13.0.0",
